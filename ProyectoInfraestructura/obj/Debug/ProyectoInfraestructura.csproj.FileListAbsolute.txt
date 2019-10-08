@@ -1,0 +1,4 @@
+C:\Users\DualPlaysX\Documents\Visual Studio 2013\Projects\FizzBuzz\ProyectoInfraestructura\bin\Debug\ProyectoInfraestructura.dll
+C:\Users\DualPlaysX\Documents\Visual Studio 2013\Projects\FizzBuzz\ProyectoInfraestructura\bin\Debug\ProyectoInfraestructura.pdb
+C:\Users\DualPlaysX\Documents\Visual Studio 2013\Projects\FizzBuzz\ProyectoInfraestructura\obj\Debug\ProyectoInfraestructura.dll
+C:\Users\DualPlaysX\Documents\Visual Studio 2013\Projects\FizzBuzz\ProyectoInfraestructura\obj\Debug\ProyectoInfraestructura.pdb

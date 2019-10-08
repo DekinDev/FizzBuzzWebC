@@ -1,0 +1,142 @@
+﻿header{
+    background: #202020;
+}
+.textoGrande{
+    font-size: 13pt !important;
+}
+
+.textoNegrita{
+    font-weight: bold !important;
+}
+
+.linkPeque{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.CapaPrincipal{
+    width: 1200px;
+    position: absolute;
+    left: 43%;
+    margin-left: -505px;
+    top: 30px;
+}
+.TablaPrincipal{
+    position: absolute;
+    width: 100%;
+}
+.CentrarLogo{
+    display: block;
+    margin: auto;
+    border:none;
+    height:60px;
+}
+.bodystytle{
+    font-size: 1pt !important;
+    font-weight: bold !important;
+}
+
+
+
+.BotonNumeros{
+    text-decoration: none;
+    padding: 3px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0,123,255,.5);
+    border-radius: 4px;
+}
+
+.MegaFooter{
+    background: #202020;
+    color:white;
+    top: 200px;
+    margin:auto;
+    width: 1200px;
+    position: absolute;
+    left: 43%;
+    margin-left: -505px;
+}
+
+
+.subfooter{
+    width: 1200px;
+    background: #202020;
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+}
+
+
+.footercolumn1{
+    max-width: 400px;
+}
+.footercolumn1 h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.footercolumn1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top:20px;
+}
+
+
+.footercolumn2{
+    max-width: 400px;
+}
+.footercolumn2 h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.footercolumn2 .filassociales{
+    margin-top: 20px;
+}
+.filassociales img{
+    width: 35px;
+    height: 35px;
+}
+.filassociales label{
+    margin-top:10px;
+    margin-left:5px;
+    color: #C7C7C7;
+}
+
+
+
+
+
+.footercolumn3{
+    max-width: 560px;
+}
+.footercolumn3 h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.filassociales2{
+    margin-top: 10px;
+    display:flex;
+}
+
+.filassociales2 label{
+    margin-top:10px;
+    margin-left:20px;
+    color: #C7C7C7;
+    max-width: 200px;
+}
+.filassociales2 img{
+    width: 35px;
+    height: 35px;
+}
+
+
+.footer{
+    background: black;
+    display:flex;
+    justify-content:space-between;
+        padding:20px;
+}
+.footermenu a{
+    color:#C7C7C7;
+}

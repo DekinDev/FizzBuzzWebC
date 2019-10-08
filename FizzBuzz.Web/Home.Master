@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="FizzBuzz.Web.Home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Fizz-Buzz</title>
+
+    <link href="/css/Style.css?ver=1.0" rel="stylesheet"/>
+    <script src="/js/Principal.js?ver=1.0"></script>
+    <script src="js/funcionescampos.js?=ver1.0"></script>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="CapaPrincipal">
+            <table class="TablaPrincipal">
+                <tr>
+                    <td>
+                        <table class="TablaPrincipal" border="0">
+                            <tr>
+                                <td style="width:15%">
+                                    <img src="/img/Logo.png" class="CentrarLogo" />
+                                </td>
+                           </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top:100px; padding-left:350px;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                        </asp:ContentPlaceHolder>
+                       </td>
+                    </tr>
+                </table>
+            
+        </div>
+        <div class="MegaFooter">
+                                            <div class="subfooter">
+
+                                                <div class="footercolumn1">
+                                                    <h1>Información sobre Fizz-Buzz</h1>
+                                                    <p>FizzBuzz es un pequeño juego de numeros, cualquiero numero divisible por 3 o por 5 será un fallo.</p>
+                                                </div>
+
+                                                <div class="footercolumn2">
+                                                    <h1>Redes Sociales</h1>
+
+                                                    <div class="filassociales">
+                                                        <img src="/img/FacebookS.png" class="ImagenPequeFooterSocial"/>
+                                                        <label>Siguenos en Facebook</label>
+                                                    </div>
+
+                                                    <div class="filassociales">
+                                                        <img src="/img/TwitterS.png" class="ImagenPequeFooterSocial"/>
+                                                        <label>Siguenos en Twitter</label>
+                                                    </div>
+
+                                                    <div class="filassociales">
+                                                        <img src="/img/InstagramS.png" class="ImagenPequeFooterSocial"/>
+                                                        <label>Siguenos en Instagram</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="footercolumn3">
+                                                        <h1>Información de contacto</h1>
+
+                                                        <div class="filassociales2">
+                                                        <img src="/img/Home.png"/>
+                                                        <label>sii-concatel.com</label>
+                                                        </div>
+
+                                                        <div class="filassociales2">
+                                                        <img src="/img/Empres.png"/>
+                                                        <label>Edifici D, Av. del Carrilet, 3, 08902 L'Hospitalet de Llobregat, Barcelona</label>
+                                                        </div>
+
+                                                        <div class="filassociales2">
+                                                        <img src="/img/Telef.png"/>
+                                                        <label>+34 935-679-710</label>
+                                                        </div>
+
+                                                        <div class="filassociales2">
+                                                        <img src="/img/Correo.png"/>
+                                                        <label>info@concatel.com</label>
+                                                        </div>
+                                                    </div>
+                                            </div>
+
+                                            <div class="footer">
+                                                <div class="copyright">
+                                                    Copyright © Kevin Egea 2019. Todos los derechos reservados. 
+                                                </div>
+                                                <div class="footermenu">
+                                                    <a href="#">Información de la compañia</a> | <a href="#">Terminos y Condiciones</a> | <a href="#">Aviso Legal</a>
+                                                </div>
+                                            </div>
+            </div>
+    </form>
+</body>
+</html>
